@@ -15,7 +15,9 @@ enum Weekday {
 }
 ```
 - 한 줄씩 선언을 해도 되고, 한줄에 쉼표(,)로 구분해서 한번에 작성해도 상관없다<br>
-<td>eunm을 호출할 때에는 Int나 String 처럼 사용할 수 있다
+
+
+eunm을 호출할 때에는 Int나 String 처럼 사용할 수 있다
 
 
 ```
@@ -66,6 +68,7 @@ enum Color: String {
     case grape
 }
 ```
+
 - 이 때, 초기화가 된 값들은 호출 했을 때, 해당 값들을 불러오지만, 포도와 같이 초기화 되지 않은 값들은 case의 이름을 가져온다
 ```
 print("사과의 색깔? \(Color.apple.rawValue)")
