@@ -128,4 +128,4 @@ let hasOddNumber = hasElements(in: numbers, match: oddNumberPredicate)
 print(hasEvenNumber)    //true
 print(hasOddNumber)    //false
 ```
--> lazy 컬렉션에 있는 filter 메서드의 매개변수로 비탈출 클로저를 전달하는데, lazy 컬렉션은 비동기 작업을 할 때 사용하기 때문에 filter 메서드가 요구하는 클로저는 탈출 클로저 이다(withoutActuallyEscaping 함수 사용)
+-> lazy 컬렉션에 있는 filter 메서드의 매개변수로 비탈출 클로저를 전달하는데, lazy 컬렉션은 비동기 작업을 할 때 사용하기 때문에 filter 메서드가 요구하는 클로저는 탈출 클로저 이다(withoutActuallyEscaping 함수 사용) 
